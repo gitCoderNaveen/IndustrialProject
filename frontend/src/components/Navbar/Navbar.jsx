@@ -41,11 +41,11 @@ const NavBar = () => {
   const [isPopup, setIspopup] = useState(false)
 
   axios.defaults.withCredentials = true
-  
+
   const fetchFirmDetails = async (e) => {
     e.preventDefault()
     if (product !== ' ')
-      try {
+      try { // server connection
         const response = await fetch(`https://mern-app-woad.vercel.app/datas/getFirmDetails?product=${product}`);
         const data = await response.json();
         if (response.ok) {
