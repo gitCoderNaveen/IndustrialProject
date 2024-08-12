@@ -4,6 +4,7 @@ import Home from './components/Home'
 import ImageSlider from './components/ImageSlider'
 import ImageGrid from './components/ImageGrid'
 import ContentDiv from './components/ContentDiv'
+import Footer from './components/Footer'
 
 
 const App = () => {
