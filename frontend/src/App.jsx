@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home'
 import ImageSlider from './components/ImageSlider'
 import ImageGrid from './components/ImageGrid'
+import ContentDiv from './components/ContentDiv'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar/>
       <ImageSlider/>
       <ImageGrid/>
+      <ContentDiv/>
     </div>
   )
 }
